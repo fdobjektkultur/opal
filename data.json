@@ -1,0 +1,48 @@
+{
+    "user_attributes": {
+        "alice": {
+            "role": "admin"
+        },
+        "bob": {
+            "role": "employee"
+        },
+        "eve": {
+            "role": "employee"
+        },
+        "dave": {
+            "role": "customer"
+        }
+    },
+    "ip_assignment": {
+        "bob": [
+            {
+                "ip": "123",
+                "name": "abc"
+            },
+            {
+                "ip": "456",
+                "name": "def"
+            },
+            {
+                "ip": "756",
+                "name": "xyz"
+            }
+        ],
+        "eve": [
+            {
+                "ip": "456",
+                "name": "def"
+            },
+            {
+                "ip": "756",
+                "name": "xyz"
+            }
+        ],
+        "dave": [
+            {
+                "ip": "123",
+                "name": "xyz"
+            }
+        ]
+    }
+}
